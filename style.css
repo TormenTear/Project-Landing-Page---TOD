@@ -9,15 +9,15 @@ body {
 }
 
 .main-header img {
-  width: 500px;
-  height: 200px;
+  width: 600px;
+  height: 300px;
 }
 
 header {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
-  padding: 0 15%;
+  padding: 0 16%;
 }
 
 .top-header{
@@ -29,17 +29,35 @@ header {
 .main-header{
   display: flex;
   align-items: center;
-  gap: 16px;
+  /* gap: 72px; */
+  /* justify-content: space-between; */
+  /* flex: 1; */
+  height: 400px;
+  /* margin-bottom: 48px; */
 }
 
-/* .left-main{
+.left-main{
   display: flex;
-  
-} */
+  flex-wrap: wrap;
+}
 
 .logo{
-  font-size: 24px;
+  font-size: 36px;
   color: #f9faf8;
+  font-weight: bold;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-top: 0;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 0px;
 }
 
 ul{
@@ -51,4 +69,117 @@ ul{
 a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.button1 {
+  background-color: #3882f6;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 6px 26px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.random{
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+  padding: 0 16%;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.image-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+
+.image-text{
+  display: block;
+  text-align: center;
+  width: 150px;
+}
+
+.random img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 8px;
+}
+
+.info {
+  text-align: center;
+  color: #3882f6;
+}
+
+.information {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4% 0;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  padding: 5% 16%;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.quote-credit {
+  align-self: flex-end;
+  font-weight: 700;
+  margin: 8px;
+}
+
+.action {
+  padding: 5% 16%;
+}
+
+.action-container{
+  background-color: #3882f6;
+  display: flex;
+  padding: 5% 10%;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.call {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+}
+
+.call-sub{
+  color: white;
+}
+
+.action button{
+  color: white;
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: #3882f6;
+  padding: 6px 26px;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+  padding: 3% 0;
 }
